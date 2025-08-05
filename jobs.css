@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+body {
+    background: #14213d;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 3px 10%;
+    background:#14213d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo {
+    font-size: 50px;
+    color: gold;
+    font-weight: 600;
+    height: 80px;
+}
+.navbar a {
+    height: 25px;
+    padding: 5px 6px;
+    border-radius: 5px;
+    background-color: gold;
+    color:  #14213d ;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 5s;
+}
